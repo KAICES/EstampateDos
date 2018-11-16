@@ -10,7 +10,7 @@ namespace Estampate2.Models
     {
         [Key] 
         public int idUsuario { get; set; }
-
+        
         public string Nombre { get; set; }
 
         public string Alias { get; set; }
