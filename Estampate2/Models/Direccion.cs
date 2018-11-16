@@ -19,5 +19,7 @@ namespace Estampate2.Models
 
         public virtual ICollection<Envio> Envios { get; set; }
 
+        public virtual Ciudad Ciudad{ get; set; }
+
     }
 }
