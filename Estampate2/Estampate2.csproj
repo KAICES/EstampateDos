@@ -151,6 +151,22 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Camiseta.cs" />
+    <Compile Include="Models\Ciudad.cs" />
+    <Compile Include="Models\Direccion.cs" />
+    <Compile Include="Models\Envio.cs" />
+    <Compile Include="Models\Estampa.cs" />
+    <Compile Include="Models\FacturaVenta.cs" />
+    <Compile Include="Models\FacturaVenta_has_FormasPago.cs" />
+    <Compile Include="Models\FormasPago.cs" />
+    <Compile Include="Models\Tarifas_has_FacturaVenta.cs" />
+    <Compile Include="Models\Tarifa.cs" />
+    <Compile Include="Models\Telefono.cs" />
+    <Compile Include="Models\TipoUsuario.cs" />
+    <Compile Include="Models\Transportadora.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Usuario_hasFacturaVenta.cs" />
+    <Compile Include="Models\Usuario_has_Camiseta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,7 +211,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
