@@ -27,6 +27,8 @@ namespace Estampate2.Models
 
         public virtual ICollection<Usuario_hasFacturaVenta> Usuario_HasFacturaVentas { get; set; }
 
+        public virtual ICollection<Direccion> Direcciones{ get; set; }
+
         public virtual TipoUsuario TipoUsuario { get; set; }
 
 
